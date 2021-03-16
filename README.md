@@ -1,6 +1,6 @@
 # 校验身份证[第二代]合法性，获取身份证详细信息
 声明：本项目的源项目为[navyxie](https://github.com/navyxie/idcard)大佬创建，本项目的目的为备份学习。
-### 安装:npm install idcard-verify
+### 安装: npm install idcard-verify/yarn add idcard-verify
 
 ## [API](#API)
 
@@ -20,7 +20,7 @@
 verify:校验身份证合法性，返回boolean值
 
 ```js
-var idCard = require('idcard');
+var idCard = require('idcard-verify');
 /**
 * param:idcard(string)
 * return boolean
@@ -32,7 +32,7 @@ idCard.verify('440882199100201232');//false
 info:获取身份证详细信息，返回一个json对象，key:valid为boolean值，代表身份证是否合法。
 
 ```js
-var idCard = require('idcard');
+var idCard = require('idcard-verify');
 /**
 * param:idcard(string)
 * return object
@@ -75,7 +75,7 @@ idCard.info('440882199100201232');
 generateIdcard:随机生成一个合法身份证号码，返回身份证号码
 
 ```js
-var idCard = require('idcard');
+var idCard = require('idcard-verify');
 /**
 * return string
 */
@@ -86,7 +86,7 @@ idCard.generateIdcard();//返回随机身份证号码
 constellation:根据生日返回星座
 
 ```js
-var idCard = require('idcard');
+var idCard = require('idcard-verify');
 /**
 * return string
 */
@@ -98,7 +98,7 @@ idCard.constellation('1991/02/10','/');//水瓶
 getAge:根据生日返回年龄
 
 ```js
-var idCard = require('idcard');
+var idCard = require('idcard-verify');
 /**
 * return number
 */
@@ -109,7 +109,7 @@ idCard.getAge(19910210);//25 (调用时的日期：2016/03/23)
 upgrade15To18:身份证15位升级到18位
 
 ```js
-var idCard = require('idcard');
+var idCard = require('idcard-verify');
 /**
 * return Object
 */
