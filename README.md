@@ -1,5 +1,5 @@
 # 校验身份证[第二代]合法性，获取身份证详细信息
-源项目为[navyxie](https://github.com/navyxie/idcard)大佬创建，本项目为备份学习。
+声明：本项目的源项目为[navyxie](https://github.com/navyxie/idcard)大佬创建，本项目的目的为备份学习。
 ### 安装:npm install idcard-verify
 
 ## [API](#API)
