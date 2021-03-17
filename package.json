@@ -1,11 +1,10 @@
 {
   "name": "idcard-verify",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "二代身份证合法性校验",
   "main": "index.js",
   "scripts": {
-    "test": "npm install && mocha --recursive test/",
-    "cov": "npm install && ./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+    "test": "npm install && mocha --recursive test/"
   },
   "repository": {
     "type": "git",
@@ -15,7 +14,8 @@
     "身份证校验",
     "idcard-verify",
     "二代身份证",
-    "身份证"
+    "身份证",
+    "idcard"
   ],
   "devDependencies": {
     "cheerio": "^1.0.0-rc.2",
