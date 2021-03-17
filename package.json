@@ -1,6 +1,6 @@
 {
   "name": "idcard-verify",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "二代身份证合法性校验",
   "main": "index.js",
   "scripts": {
