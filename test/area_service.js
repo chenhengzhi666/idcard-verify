@@ -16,35 +16,35 @@ describe('area_service', function() {
     it('should be ok', function() {
       area_service.idcardinfo('440882199102104195').should.have.properties({
         'birthday': 19910210,
-        gender: 'M',
+        gender: '男',
         address: "广东省湛江市雷州市"
       });
     });
     it('should be ok', function() {
       area_service.idcardinfo('440711198806181519').should.have.properties({
         'birthday': 19880618,
-        gender: 'M',
+        gender: '男',
         address: "广东省江门市郊区"
       });
     });
     it('should be ok', function() {
       area_service.idcardinfo('441900198410125825').should.have.properties({
         'birthday': 19841012,
-        gender: 'F',
+        gender: '女',
         address: "广东省东莞市"
       });
     });
     it('should be ok', function() {
       area_service.idcardinfo('150301197707291508').should.have.properties({
         'birthday': 19770729,
-        gender: 'F',
+        gender: '女',
         address: "内蒙古自治区乌海市市辖区"
       });
     });
     it('should be ok', function() {
       area_service.idcardinfo('65282419840210443X').should.have.properties({
         'birthday': 19840210,
-        gender: 'M',
+        gender: '男',
         address: "新疆维吾尔自治区巴音郭楞蒙古自治州若羌县"
       });
     });

@@ -45,7 +45,7 @@ idCard.info('440882199100201232');
 //身份证合法时返回的数据结构
 { 
 	valid: true,//身份证是否合法的标志
-	gender: 'M',//M->男，F->女
+	gender: '男',
 	birthday: 19910210,//
 	province: {
 		code: '440000',//行政区域编码
