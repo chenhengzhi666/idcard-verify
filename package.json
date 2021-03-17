@@ -14,7 +14,8 @@
     "身份证校验",
     "idcard-verify",
     "二代身份证",
-    "身份证"
+    "身份证",
+    "idcard"
   ],
   "devDependencies": {
     "cheerio": "^1.0.0-rc.2",
