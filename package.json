@@ -1,6 +1,6 @@
 {
   "name": "idcard-verify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "二代身份证合法性校验",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,9 @@
   },
   "keywords": [
     "身份证校验",
-    "idcard-verify"
+    "idcard-verify",
+    "二代身份证",
+    "身份证"
   ],
   "devDependencies": {
     "cheerio": "^1.0.0-rc.2",
@@ -25,10 +27,11 @@
     "node-fetch": "^2.1.1",
     "should": "^7.0.2"
   },
-  "author": {
-    "name": "suxiaozhi"
-  },
+  "author": "suxiaozhi",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenhengzhi666/idcard-verify/issues"
+  },
   "homepage": "https://github.com/chenhengzhi666/idcard-verify",
   "maintainers": [
     {
