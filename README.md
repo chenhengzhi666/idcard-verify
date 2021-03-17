@@ -63,7 +63,7 @@ idCard.info('440882199100201232');
 	cardText: '大陆',
 	address: '广东省湛江市雷州市',
 	age:24,
-	constellation:'水瓶'//星座 
+	constellation:'水瓶座'//星座 
 }
 //身份证非法时返回的数据结构
 {
@@ -90,8 +90,8 @@ import idCard from "idcard-verify"
 /**
 * return string
 */
-idCard.constellation(19910210);//水瓶
-idCard.constellation('1991/02/10','/');//水瓶
+idCard.constellation(19910210);//水瓶座
+idCard.constellation('1991/02/10','/');//水瓶座
 ```
 
 <a name="getAge" />

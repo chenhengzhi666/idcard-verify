@@ -55,7 +55,7 @@ describe('#idCard#', function() {
     it('it must be ok', function() {
       var info = idCard.info('440882199102104195');
       info.valid.should.be.true();
-      info.constellation.should.be.equal("水瓶");
+      info.constellation.should.be.equal("水瓶座");
     });
     it('it must be ok', function() {
       var info = idCard.info('44522119901117536X');
@@ -76,122 +76,122 @@ describe('#idCard#', function() {
     it('it must be not ok', function() {
       var info = idCard.info('440101199801218451');
       info.valid.should.be.true();
-      info.constellation.should.be.equal('水瓶');
+      info.constellation.should.be.equal('水瓶座');
     });
     it('it must be not ok', function() {
       var info = idCard.info('220403199801042597');
       info.valid.should.be.true();
-      info.constellation.should.be.equal('摩羯');
+      info.constellation.should.be.equal('摩羯座');
     });
     it('it must be not ok', function() {
       var info = idCard.info('152101199802202278');
       info.valid.should.be.true();
-      info.constellation.should.be.equal('双鱼');
+      info.constellation.should.be.equal('双鱼座');
     });
     it('it must be not ok', function() {
       var info = idCard.info('220501199802016852');
       info.valid.should.be.true();
-      info.constellation.should.be.equal('水瓶');
+      info.constellation.should.be.equal('水瓶座');
     });
     it('it must be not ok', function() {
       var info = idCard.info('220401199803214011');
       info.valid.should.be.true();
-      info.constellation.should.be.equal('白羊');
+      info.constellation.should.be.equal('白羊座');
     });
     it('it must be not ok', function() {
       var info = idCard.info('210601199803011619');
       info.valid.should.be.true();
-      info.constellation.should.be.equal('双鱼');
+      info.constellation.should.be.equal('双鱼座');
     });
     it('it must be not ok', function() {
       var info = idCard.info('320501199804213933');
       info.valid.should.be.true();
-      info.constellation.should.be.equal('金牛');
+      info.constellation.should.be.equal('金牛座');
     });
     it('it must be not ok', function() {
       var info = idCard.info('310101199804017656');
       info.valid.should.be.true();
-      info.constellation.should.be.equal('白羊');
+      info.constellation.should.be.equal('白羊座');
     });
     it('it must be not ok', function() {
       var info = idCard.info('220301199805229617');
       info.valid.should.be.true();
-      info.constellation.should.be.equal('双子');
+      info.constellation.should.be.equal('双子座');
     });
     it('it must be not ok', function() {
       var info = idCard.info('36060119980521413X');
       info.valid.should.be.true();
-      info.constellation.should.be.equal('金牛');
+      info.constellation.should.be.equal('金牛座');
     });
     it('it must be not ok', function() {
       var info = idCard.info('330501199806220493');
       info.valid.should.be.true();
-      info.constellation.should.be.equal('巨蟹');
+      info.constellation.should.be.equal('巨蟹座');
     });
     it('it must be not ok', function() {
       var info = idCard.info('320701199806218835');
       info.valid.should.be.true();
-      info.constellation.should.be.equal('双子');
+      info.constellation.should.be.equal('双子座');
     });
     it('it must be not ok', function() {
       var info = idCard.info('220501199807231471');
       info.valid.should.be.true();
-      info.constellation.should.be.equal('狮子');
+      info.constellation.should.be.equal('狮子座');
     });
     it('it must be not ok', function() {
       var info = idCard.info('230501199807226754');
       info.valid.should.be.true();
-      info.constellation.should.be.equal('巨蟹');
+      info.constellation.should.be.equal('巨蟹座');
     });
     it('it must be not ok', function() {
       var info = idCard.info('210801199808236850');
       info.valid.should.be.true();
-      info.constellation.should.be.equal('处女');
+      info.constellation.should.be.equal('处女座');
     });
     it('it must be not ok', function() {
       var info = idCard.info('320801199808228952');
       info.valid.should.be.true();
-      info.constellation.should.be.equal('狮子');
+      info.constellation.should.be.equal('狮子座');
     });
     it('it must be not ok', function() {
       var info = idCard.info('230801199809249294');
       info.valid.should.be.true();
-      info.constellation.should.be.equal('天秤');
+      info.constellation.should.be.equal('天秤座');
     });
     it('it must be not ok', function() {
       var info = idCard.info('341101199809231578');
       info.valid.should.be.true();
-      info.constellation.should.be.equal('处女');
+      info.constellation.should.be.equal('处女座');
     });
     it('it must be not ok', function() {
       var info = idCard.info('331001199810243894');
       info.valid.should.be.true();
-      info.constellation.should.be.equal('天蝎');
+      info.constellation.should.be.equal('天蝎座');
     });
     it('it must be not ok', function() {
       var info = idCard.info('320801199810238359');
       info.valid.should.be.true();
-      info.constellation.should.be.equal('天秤');
+      info.constellation.should.be.equal('天秤座');
     });
     it('it must be not ok', function() {
       var info = idCard.info('340701199811239730');
       info.valid.should.be.true();
-      info.constellation.should.be.equal('射手');
+      info.constellation.should.be.equal('射手座');
     });
     it('it must be not ok', function() {
       var info = idCard.info('341001199811226799');
       info.valid.should.be.true();
-      info.constellation.should.be.equal('天蝎');
+      info.constellation.should.be.equal('天蝎座');
     });
     it('it must be not ok', function() {
       var info = idCard.info('331001199812229914');
       info.valid.should.be.true();
-      info.constellation.should.be.equal('摩羯');
+      info.constellation.should.be.equal('摩羯座');
     });
     it('it must be not ok', function() {
       var info = idCard.info('330801199812217019');
       info.valid.should.be.true();
-      info.constellation.should.be.equal('射手');
+      info.constellation.should.be.equal('射手座');
     });
     it('it must be not ok', function() {
       var info = idCard.info('440882199100201232');
@@ -201,43 +201,43 @@ describe('#idCard#', function() {
   });
   describe('constellation()', function() {
     it('it must be ok', function() {
-      idCard.constellation('19910210').should.be.equal("水瓶");
+      idCard.constellation('19910210').should.be.equal("水瓶座");
     });
     it('it must be ok', function() {
-      idCard.constellation(19910210).should.be.equal("水瓶");
+      idCard.constellation(19910210).should.be.equal("水瓶座");
     });
     it('it must be ok', function() {
-      idCard.constellation(19910120).should.be.equal("摩羯");
+      idCard.constellation(19910120).should.be.equal("摩羯座");
     });
     it('it must be ok', function() {
-      idCard.constellation(19910121).should.be.equal("水瓶");
+      idCard.constellation(19910121).should.be.equal("水瓶座");
     });
     it('it must be ok', function() {
-      idCard.constellation(19910220).should.be.equal("双鱼");
+      idCard.constellation(19910220).should.be.equal("双鱼座");
     });
     it('it must be ok', function() {
-      idCard.constellation(19910219).should.be.equal("水瓶");
+      idCard.constellation(19910219).should.be.equal("水瓶座");
     });
     it('it must be ok', function() {
-      idCard.constellation(19910321).should.be.equal("白羊");
+      idCard.constellation(19910321).should.be.equal("白羊座");
     });
     it('it must be ok', function() {
-      idCard.constellation(19910320).should.be.equal("双鱼");
+      idCard.constellation(19910320).should.be.equal("双鱼座");
     });
     it('it must be ok', function() {
-      idCard.constellation(19910421).should.be.equal("金牛");
+      idCard.constellation(19910421).should.be.equal("金牛座");
     });
     it('it must be ok', function() {
-      idCard.constellation(19910420).should.be.equal("白羊");
+      idCard.constellation(19910420).should.be.equal("白羊座");
     });
     it('it must be ok', function() {
-      idCard.constellation(1991052245).should.be.equal("双子");
+      idCard.constellation(1991052245).should.be.equal("双子座");
     });
     it('it must be ok', function() {
-      idCard.constellation('1991-02-10', '-').should.be.equal("水瓶");
+      idCard.constellation('1991-02-10', '-').should.be.equal("水瓶座");
     });
     it('it must be ok', function() {
-      idCard.constellation('1991/03/10', '/').should.be.equal("双鱼");
+      idCard.constellation('1991/03/10', '/').should.be.equal("双鱼座");
     });
   });
   describe('getAge()', function() {
